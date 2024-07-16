@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Weather APP</title>
+</head>
+<body class="bg-zinc-950 text-white">
+    <div class="flex justify-center items-center h-screen">
+        <div class="flex justify-center items-center flex-col text-center bg-zinc-900 p-12 rounded-lg">
+            <img src="" alt="" id="dataimg" class="">
+            <h1 class="text-[45px] font-medium" id="tempid"></h1>
+            <p class="text-[24px]" id="locationid"></p>
+            <div class="flex gap-12 mt-12 text-center items-center justify-center">
+                <div>
+                    <p>Humidity:</p>
+                    <p id="humidityid"></p>
+                </div>
+                <div>
+                    <p>Wind Speed:</p>
+                    <p id="windid"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
